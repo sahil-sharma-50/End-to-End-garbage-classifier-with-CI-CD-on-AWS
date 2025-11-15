@@ -11,7 +11,6 @@ data "aws_iam_role" "ecs_task_execution_role" {
 
 data "aws_cloudwatch_log_group" "logs" {
   name              = "/ecs/${var.app_name}-task"
-  retention_in_days = 30
 }
 
 # ECS Task Definition for frontend
