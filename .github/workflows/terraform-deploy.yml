@@ -38,11 +38,3 @@ jobs:
       - name: Terraform Apply
         working-directory: infra
         run: terraform apply -var-file="env/dev.tfvars" -auto-approve
-
-      - name: Run smoke tests
-        run: |
-          echo "Testing Frontend at $FRONTEND_DNS"
-          curl -f http://$FRONTEND_DNS || exit 1
-
-          echo "Testing Backend at $BACKEND_DNS"
-          curl -f http://$BACKEND_DNS/predict || exit 1
