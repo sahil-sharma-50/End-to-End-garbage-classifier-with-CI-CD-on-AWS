@@ -63,9 +63,9 @@ jobs:
             --service frontend-service \
             --force-new-deployment
 
-      - name: Force ECS backend redeploy
+      - name: Force ECS endpoint redeploy
         run: |
           aws ecs update-service \
             --cluster waste-classifier-cluster \
-            --service backend-service \
+            --service endpoint-service \
             --force-new-deployment
