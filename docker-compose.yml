@@ -14,6 +14,8 @@ services:
     build:
       context: .
       dockerfile: Dockerfile.frontend
+      args:
+        - REACT_APP_BACKEND_URL=
     image: react-frontend:latest
     container_name: react-frontend
     ports:

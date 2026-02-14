@@ -2,9 +2,9 @@
 body, html, #root {
   margin: 0;
   padding: 0;
-  background-color: #f8f9fb;
+  background-color: #121212;
   font-family: "Inter", "Segoe UI", sans-serif;
-  color: #333;
+  color: #e0e0e0;
 }
 
 /* Main Content */
@@ -17,11 +17,11 @@ body, html, #root {
 .title {
   font-size: 2rem;
   font-weight: 700;
-  color: #1f2937;
+  color: #f3f4f6;
 }
 
 .subtitle {
-  color: #6b7280;
+  color: #9ca3af;
   margin-bottom: 40px;
   font-size: 1rem;
 }
@@ -41,24 +41,24 @@ body, html, #root {
 
 /* Card */
 .card {
-  background: #fff;
+  background: #1e1e1e;
   border-radius: 12px;
-  box-shadow: 0 4px 20px rgba(0,0,0,0.05);
+  box-shadow: 0 4px 20px rgba(0,0,0,0.3);
   padding: 30px;
   text-align: left;
   transition: box-shadow 0.3s ease;
 }
 
 .card:hover {
-  box-shadow: 0 6px 24px rgba(0,0,0,0.08);
+  box-shadow: 0 6px 24px rgba(0,0,0,0.4);
 }
 
 .card-title {
-  border-bottom: 1px solid #e5e7eb;
+  border-bottom: 1px solid #374151;
   padding-bottom: 10px;
   margin-bottom: 20px;
   font-weight: 600;
-  color: #0b341d;
+  color: #10b981;
 }
 
 
@@ -68,17 +68,17 @@ body, html, #root {
   display: flex;
   justify-content: center;
   align-items: center;
-  border: 2px dashed #cbd5e1;
+  border: 2px dashed #4b5563;
   border-radius: 10px;
   height: 220px;
-  background-color: #f9fafb;
+  background-color: #2d2d2d;
   cursor: pointer;
   transition: border-color 0.3s ease, background 0.3s ease;
 }
 
 .file-drop:hover {
-  border-color: #2563eb;
-  background-color: #f3f6ff;
+  border-color: #3b82f6;
+  background-color: #374151;
 }
 
 .file-input {
@@ -87,7 +87,7 @@ body, html, #root {
 
 .drop-text {
   text-align: center;
-  color: #64748b;
+  color: #9ca3af;
 }
 
 .drop-text p {
@@ -96,7 +96,7 @@ body, html, #root {
 
 .hint {
   font-size: 0.85rem;
-  color: #94a3b8;
+  color: #6b7280;
 }
 
 .preview-image {
@@ -134,7 +134,7 @@ body, html, #root {
 .btn-submit {
   margin-top: 20px;
   width: 100%;
-  background-color: #2563eb;
+  background-color: #3b82f6;
   color: white;
   border: none;
   border-radius: 8px;
@@ -146,11 +146,11 @@ body, html, #root {
 }
 
 .btn-submit:hover {
-  background-color: #1d4ed8;
+  background-color: #2563eb;
 }
 
 .btn-submit.loading {
-  background-color: #9ca3af;
+  background-color: #4b5563;
   cursor: not-allowed;
 }
 
@@ -165,16 +165,16 @@ body, html, #root {
   display: flex;
   justify-content: space-between;
   font-size: 0.95rem;
-  border-bottom: 1px solid #f0f0f0;
+  border-bottom: 1px solid #374151;
   padding: 6px 0;
 }
 
 .result-item span {
-  color: #64748b;
+  color: #9ca3af;
 }
 
 .result-item strong {
-  color: #111827;
+  color: #f3f4f6;
 }
 
 /* Bin Image */
@@ -187,7 +187,7 @@ body, html, #root {
 .bin-image {
   max-width: 250px;
   border-radius: 10px;
-  box-shadow: 0 3px 12px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 3px 12px rgba(0, 0, 0, 0.3);
   transition: transform 0.25s ease;
 }
 
@@ -197,7 +197,7 @@ body, html, #root {
 
 /* Placeholder */
 .placeholder {
-  color: #9ca3af;
+  color: #6b7280;
   text-align: center;
   font-size: 0.95rem;
   padding: 40px 0;
@@ -208,7 +208,7 @@ body, html, #root {
   text-align: center;
   padding: 20px;
   font-size: 0.8rem;
-  color: #9ca3af;
-  border-top: 1px solid #e5e7eb;
+  color: #6b7280;
+  border-top: 1px solid #374151;
   margin-top: 40px;
 }
